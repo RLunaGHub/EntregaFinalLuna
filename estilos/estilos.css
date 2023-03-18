@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.caja {
+    margin-top: auto;
+}
+.caja-nav {
+    background-color: #e4d2a0;
+    margin-bottom: 3;
+    
+}
+  
+
+p{
+    font-size: 2rem;
+}
+
+ul li {
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+/* body{
+    background-image: i;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+
+div .card{
+    background-color: rgba(17, 18, 19, 0.692);
+}
+
+
+div p{
+    color: aliceblue;
+}
+
+div .card-title{
+    color: white;
+    font-weight: 700;
+}
+
+#agregarBtn{
+    font-size: 4rem;
+}
+
+
+
+
+#botonCarrito{
+    font-size: 2rem;
+    border: none;
+}
+
+#offcanvas{
+    background-color: aliceblue;
+}
+
+#offcanvas p{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-align: center;
+}
+
+#offcanvas img{
+    width: 300px;
+    object-fit: cover;
+    margin-left: 25px;
+}
+
+#offcanvas h3{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+.compraTotal{
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.btnEliminar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4px;
+    border-color: rgb(59, 109, 150);
+    border-radius: 4px;
+    color: white;
+    background-color: steelblue;
+    margin-left: 140px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+

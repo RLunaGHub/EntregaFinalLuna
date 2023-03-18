@@ -1,0 +1,99 @@
+[{
+    "id" : 0,
+    "titulo": "Chocotorta",
+    "imagen": "chocotorta.jpg",
+    "descripcion": "Capas de galletitas chocolinas, dulce de leche y queso crema. Cobertura: trocitos de galletitas y rulos de chocolate",
+    "precio":  4600,
+    "cantidad": 10
+},
+{
+    "id" : 1,
+   "titulo": "Lemon Pie",
+   "imagen": "lemonpie.jpg",
+   "descripcion": "Base de masa sablée, crema de limón. Cobertura: merengue italiano",
+   "precio":  4600,
+   "cantidad": 12
+   },
+   {
+    "id" : 2,
+   "titulo": "Rogel",
+   "imagen": "rogel.jpg",
+   "descripcion": "Capas de masa crocante de alfajor santafesino, abundante dulce de leche y merengue italiano",
+   "precio":  4600,
+   "cantidad": 8 
+   },
+   {
+    "id" : 3,
+   "titulo": "Straciatella",
+   "imagen": "straciatella.jpg",
+   "descripcion": "Masa húmeda combinada de chocolate y mousse de dulce de leche granizado",
+   "precio":   4200,
+   "cantidad": 8
+   },
+   
+   {
+    "id" : 4,
+   "titulo": "Toffi",
+   "imagen": "toffi.jpg",
+   "descripcion": "Base de masa frola de chocolate con castañas de cajú y dulce de leche. Cobertura: ganache y rulos de chocolate",
+   "precio":  4200,
+   "cantidad": 8 
+   },
+   {
+    "id" : 5,
+   "titulo": "Tiramisú",
+   "imagen": "tira.jpg",
+   "descripcion": "Pionono de café bien húmedo, batido de queso, crema y salsa inglesa. Cobertura: cacao en polvo",
+   "precio":  4200,
+   "cantidad": 8 
+   },
+   {
+    "id" : 6,
+    "titulo": "Saint Honore",
+    "imagen": "sainthonore.jpg",
+    "descripcion": "Torre de profiteroles rellenos con crema pastelera, pastelera al chocolate y dulce de leche. Cobertura de caramelo. Consultar por relleno de crema chantilly con cobertura de chocolate",
+    "precio": 5000,
+    "cantidad": 10
+},
+{
+    "id" : 7,
+   "titulo": "Alvear",
+   "imagen": "alvear.jpg",
+   "descripcion": "Capas de hojaldre caramelizado, crema pastelera y almíbar de damascos. Cobertura: copos de merengue y cerezas",
+   "precio":  4700,
+   "cantidad": 12
+   },
+   {
+    "id" : 8,
+   "titulo": "Brownie",
+   "imagen": "brownie.jpg",
+   "descripcion": "Torta de chocolate con nueces, mousse de chocolate, trocitos de merengue y dulce de leche. Cobertura: merengue italiano y viruta de chocolate",
+   "precio":  5100,
+   "cantidad": 8 
+   },
+   {
+    "id" : 9,
+   "titulo": "Cheesecake",
+   "imagen": "cheesecake.jpg",
+   "descripcion": "Suave pionono de vainilla, batido de queso crema, jugo y rayadura de limón. Cobertura: geleé de frutos rojos",
+   "precio":   4800,
+   "cantidad": 8
+   },
+   
+   {
+    "id" : 10,
+   "titulo": "Krocco",
+   "imagen": "krocco.jpg",
+   "descripcion": "Torta de chocolate, cremoso mousse de chocolate semi amargo, frutos rojos y microgalletitas cubiertas de chocolate. Cobertura: chocolate negro y amarenas",
+   "precio":  5000,
+   "cantidad": 8 
+   },
+   {
+    "id" : 11,
+   "titulo": "Bavorois",
+   "imagen": "bavorois.jpg",
+   "descripcion": "Suave pionono de vainilla, mousse de limón. Cobertura:geleé de maracuya",
+   "precio":  4600,
+   "cantidad": 8 
+   }
+]
