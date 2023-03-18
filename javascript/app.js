@@ -45,7 +45,7 @@ const traerProductos = async() => {
             })
             //Agrego Toastify como método de notificación.
             Toastify({
-                text: `El producto ${torta.titulo} ha sido agregado correctamente! 🐉`,
+                text: `El producto ${torta.titulo} se agregó al carrito`,
                 duration: 1500,
                 newWindow: false,
                 close: true,
@@ -53,7 +53,7 @@ const traerProductos = async() => {
                 position: "right",
                 stopOnFocus: true,
                 style: {
-                  background: "#F14500",
+                  background: "Green",
                   color: "#fff",
                 },
               }).showToast();
@@ -93,7 +93,7 @@ const mostrarCarrito = () => {
             eliminarP.addEventListener("click", () => {
                 eliminarProducto(torta.id)
                 Toastify({
-                    text: `El producto ${torta.titulo} ha sido eliminado del carrito.`,
+                    text: `El producto ${torta.titulo} se eliminó del carrito`,
                     duration: 2000,
                     newWindow: false,
                     close: true,
@@ -152,7 +152,7 @@ const eliminarProducto = (id) => {
   function finalizarCompra(totalCompra)  {
     if(carritoProductos.length === 0){
         Swal.fire({
-            title: 'No hay nada en su carrito',
+            title: 'Su carrito se encuentra vacío',
             icon: 'error',
             showCancelButton: false,
             confirmButtonColor: '#3085d6',
@@ -160,7 +160,7 @@ const eliminarProducto = (id) => {
           })          
     }else
     Swal.fire({
-        title: '¿Desea finalizar la compra?',
+        title: '¿Desea finalizar su compra?',
         icon: 'question',
         showCancelButton: true,
         confirmButtonText: 'Aceptar',
@@ -173,11 +173,11 @@ const eliminarProducto = (id) => {
                     title: 'Compra realizada',
                     icon: 'success',
                     confirmButtonColor: '#317f43',
-                    text: `Gracias por su compra, esperamos que vuelva! `,
+                    text: `Gracias por su compra, vuelva pronto`,
                     })
                 carritoProductos = []
                 localStorage.removeItem("carrito")    
-                offcanvasBody.innerHTML = `<h2>Muchas gracias por tu compra! :D</h2>`;
+                offcanvasBody.innerHTML = `<h2>Muchas gracias por su compra, próximamente tendremos más delicias para que disfrute</h2>`;
             }else{
                 Swal.fire({
                     title: 'Compra no efectuada',
